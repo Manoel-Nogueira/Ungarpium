@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Milho",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Feijão", "Abóbora", "Amendoim"],
+    "incompatible_plants": ["Batata", "Tomate"]
+  },
+  {
+    "name": "Feijão",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": ["Milho", "Abóbora", "Girassol"],
+    "incompatible_plants": ["Alho", "Cebola"]
+  },
+  {
+    "name": "Girassol",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Feijão", "Abóbora"],
+    "incompatible_plants": ["Batata-doce", "Berinjela"]
+  },
+  {
+    "name": "Abóbora",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Milho", "Feijão", "Melancia"],
+    "incompatible_plants": ["Batata", "Couve-flor"]
+  },
+  {
+    "name": "Amendoim",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": ["Milho", "Girassol"],
+    "incompatible_plants": ["Cebola", "Alho"]
+  },
+  {
+    "name": "Batata-doce",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Feijão", "Quiabo"],
+    "incompatible_plants": ["Abóbora", "Tomate"]
+  },
+  {
+    "name": "Quiabo",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Feijão", "Milho"],
+    "incompatible_plants": ["Cenoura", "Pepino"]
+  },
+  {
+    "name": "Melancia",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Milho", "Feijão"],
+    "incompatible_plants": ["Tomate", "Batata"]
+  },
+  {
+    "name": "Melão",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Milho", "Amendoim"],
+    "incompatible_plants": ["Batata", "Alface"]
+  },
+  {
+    "name": "Berinjela",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Pimentão"],
+    "incompatible_plants": ["Batata", "Girassol"]
+  },
+  {
+    "name": "Amendoim forrageiro",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Feijão-guandu",
+    "improves_soil": true,
+    "cycle": "médio",
+    "compatible_plants": ["Milho"],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Feijão bravo",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Nabo",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Aveia",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Mamona",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Milho", "Feijão-guandu"],
+    "incompatible_plants": ["Tomate", "Abóbora"]
+  },
+  {
+    "name": "Cacau",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Bananeira"],
+    "incompatible_plants": ["Abóbora"]
+  },
+  {
+    "name": "Bananeira",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Cacau", "Feijão-guandu"],
+    "incompatible_plants": ["Abóbora", "Melancia"]
+  },
+  {
+    "name": "Café",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Feijão-guandu", "Mamona"],
+    "incompatible_plants": ["Tomate", "Melancia"]
+  },
+  {
+    "name": "Tomate",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Alho", "Pimentão"],
+    "incompatible_plants": ["Batata", "Ervilha"]
+  },
+  {
+    "name": "Cebola",
+    "improves_soil": false,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": ["Feijão", "Ervilha"]
+  },
+  {
+    "name": "Alho",
+    "improves_soil": false,
+    "cycle": "curto",
+    "compatible_plants": ["Tomate"],
+    "incompatible_plants": ["Feijão", "Ervilha"]
+  },
+  {
+    "name": "Pimentão",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Tomate"],
+    "incompatible_plants": ["Feijão"]
+  },
+  {
+    "name": "Ervilha",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": ["Milho"],
+    "incompatible_plants": ["Alho", "Cebola"]
+  },
+  {
+    "name": "Inhame",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Feijão"],
+    "incompatible_plants": ["Abóbora"]
+  },
+  {
+    "name": "Mandioca",
+    "improves_soil": false,
+    "cycle": "longo",
+    "compatible_plants": ["Feijão", "Milho"],
+    "incompatible_plants": ["Cebola"]
+  },
+  {
+    "name": "Chocalho-de-cobra",
+    "improves_soil": true,
+    "cycle": "curto",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Sorgo",
+    "improves_soil": false,
+    "cycle": "médio",
+    "compatible_plants": ["Feijão", "Chocalho-de-cobra"],
+    "incompatible_plants": ["Abóbora"]
+  },
+  {
+    "name": "Ervilha-de-cabra",
+    "improves_soil": true,
+    "cycle": "médio",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  },
+  {
+    "name": "Leucena",
+    "improves_soil": true,
+    "cycle": "longo",
+    "compatible_plants": [],
+    "incompatible_plants": []
+  }
+]
